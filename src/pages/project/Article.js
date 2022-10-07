@@ -49,7 +49,7 @@ const Article = () => {
                             
                             <div className="contact-person mt-5">
                                 <h2 className="font-bold text-2xl leading-normal mb-2">Contact person</h2>
-                                <div className="flex">
+                                <div className="flex flex-wrap">
                                     <div className="flex-none input-group">
                                         <div className="font-bold">Name</div>
                                         <div className='w-80'>amque non</div>
@@ -59,7 +59,7 @@ const Article = () => {
                                         <div className='w-80'>amque non</div>
                                     </div>
                                 </div>
-                                <div className="flex">
+                                <div className="flex flex-wrap">
                                     <div className="flex-none input-group">
                                         <div className="font-bold">Telephone</div>
                                         <div className='w-96'>amque non</div>

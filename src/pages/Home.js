@@ -9,7 +9,7 @@ function Home() {
     const navigate = useNavigate();
 
     return (
-        <div className="w-5/6 px-10 md:px-16 lg:px-24 pb-10 grid mx-auto main-grid">
+        <div className="w-5/6 px-10 md:px-16 lg:px-24 pb-10 grid mx-auto">
             <div className="flex justify-center mt-8">
                 <img src="./imgs/logo.png" width={395} alt="" />
             </div>
