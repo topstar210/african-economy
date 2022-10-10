@@ -47,7 +47,7 @@ export default function Navbar({ fixed }) {
           <div
             className={
               "lg:flex flex-grow items-center justify-between" +
-              (navbarOpen ? " flex" : " hidden")
+              (navbarOpen ? " sm:flex" : " hidden")
             }
           >
             <ul className="flex flex-col lg:flex-row list-none">
